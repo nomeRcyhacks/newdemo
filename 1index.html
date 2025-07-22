@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ghagmari Boys ($GMB)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Rubik', sans-serif;
+      background: linear-gradient(to bottom, #fffce8, #ffecd2);
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #ffa500;
+      padding: 40px 20px;
+      text-align: center;
+      color: white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      font-size: 3em;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    nav {
+      text-align: center;
+      margin-top: 20px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #222;
+    }
+    nav a:hover {
+      color: #e67e22;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .hero {
+      text-align: center;
+    }
+    .hero img {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+    .hero h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: #e67e22;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+    .stat {
+      background: #fff7c2;
+      padding: 20px;
+      border-radius: 10px;
+      width: 30%;
+      min-width: 150px;
+      margin: 10px;
+      text-align: center;
+      box-shadow: 0 0 10px #ccc;
+    }
+
+    .tokenomics, .roadmap {
+      background: #fff;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 0 15px #ddd;
+      margin-top: 40px;
+    }
+
+    .roadmap ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .roadmap li {
+      margin: 15px 0;
+      position: relative;
+      padding-left: 25px;
+    }
+
+    .roadmap li::before {
+      content: "🟢";
+      position: absolute;
+      left: 0;
+    }
+
+    .buy-button {
+      display: inline-block;
+      background: #e67e22;
+      color: white;
+      padding: 14px 30px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 1.1em;
+      margin-top: 30px;
+    }
+
+    .buy-button:hover {
+      background: #cf711f;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 10px;
+      background: #333;
+      color: white;
+    }
+
+    .socials a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+      font-size: 1.3em;
+    }
+
+    .socials a:hover {
+      color: #ffa500;
+    }
+
+    @media (max-width: 768px) {
+      .stats { flex-direction: column; align-items: center; }
+      .stat { width: 80%; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ghagmari Boys</h1>
+    <p>The Real Gaav Vibe on the Blockchain 🚜</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#tokenomics">Tokenomics</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#buy">Buy</a>
+  </nav>
+
+  <section class="hero" id="about">
+    <img src="https://i.imgur.com/ZjZ4KN9.png" alt="$GMB Logo" />
+    <h2>Born from the fields, built for the moon 🌕</h2>
+    <p>$GMB is the most desi meme coin — no VC, no rug, just raw community masti.</p>
+
+    <div class="stats">
+      <div class="stat">
+        <h3>1,000,000,000</h3>
+        <p>Total Supply</p>
+      </div>
+      <div class="stat">
+        <h3>100%</h3>
+        <p>Community Owned</p>
+      </div>
+      <div class="stat">
+        <h3>∞</h3>
+        <p>Meme Power</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="tokenomics" id="tokenomics">
+    <h2>📊 Tokenomics</h2>
+    <ul>
+      <li>🔥 Total Supply: 1B GMB</li>
+      <li>🧠 0% Tax, 0% Rug</li>
+      <li>👐 Fair Launch – No Presale</li>
+    </ul>
+  </section>
+
+  <section class="roadmap" id="roadmap">
+    <h2>🗺️ Roadmap</h2>
+    <ul>
+      <li>Phase 1: Launch & Meme Blast</li>
+      <li>Phase 2: Twitter Shillstorm</li>
+      <li>Phase 3: Ghagmari Merch Drop</li>
+      <li>Phase 4: GMB x Samosa NFT Collab</li>
+    </ul>
+  </section>
+
+  <section class="hero" id="buy">
+    <h2>💰 Buy $GMB</h2>
+    <p>Join the village revolution. One coin at a time.</p>
+    <a class="buy-button" href="https://jup.ag/swap/SOL-GMB" target="_blank">Buy on Jupiter</a>
+  </section>
+
+  <footer>
+    <p>Follow the Meme Movement:</p>
+    <div class="socials">
+      <a href="https://t.me/ghagmariboys" target="_blank">Telegram</a>
+      <a href="https://x.com/ghagmariboys" target="_blank">Twitter</a>
+    </div>
+    <p style="margin-top: 10px;">© 2025 Ghagmari Boys. Meme ka Badshah 👑</p>
+  </footer>
+
+</body>
+</html>
